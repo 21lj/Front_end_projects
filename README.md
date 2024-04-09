@@ -1,5 +1,5 @@
 # Front_end_projects
 
-Basic FronEnd projects using HTML,CSS and JavaScript
+Basic FrontEnd projects using HTML,CSS and JavaScript
 
 Happy Learning!!
