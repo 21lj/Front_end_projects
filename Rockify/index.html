@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="covers/icon.png">
+    <title>Rockify - Playlist</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="covers/icon.png">Rockify</li>
+            <li>Home</li>
+            <li>About
+                <div class="about">
+                    <p>
+                        This Project is made by Lijo Joseph, reffered Code with Harry's <a href="https://youtu.be/ANzPM5-lwXc?si=sRfNXfBjevhGbskq">Video</a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1 class="main-h">Liked Playlist</h1>
+            <div class="songItemContainer">
+                
+                <div class="songItem">
+                    <img class="imgcover">
+                    <span class="songName">Song 1</span>
+                    <span class="songlistplay"><span class="timestamp"> </span><i id="0" class="songItemPlay far fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img class="imgcover">
+                    <span class="songName">Song 2</span>
+                    <span class="songlistplay"><span class="timestamp"> </span><i id="1" class="songItemPlay far fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img class="imgcover">
+                    <span class="songName">Song 3</span>
+                    <span class="songlistplay"><span class="timestamp"> </span><i id="2" class="songItemPlay far fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img class="imgcover">
+                    <span class="songName">Song 4</span>
+                    <span class="songlistplay"><span class="timestamp"> </span><i id="3" class="songItemPlay far fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img class="imgcover">
+                    <span class="songName">Song 5</span>
+                    <span class="songlistplay"><span class="timestamp"> </span><i id="4" class="songItemPlay far fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img class="imgcover">
+                    <span class="songName">Song 6</span>
+                    <span class="songlistplay"><span class="timestamp"> </span><i id="5" class="songItemPlay far fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img class="imgcover">
+                    <span class="songName">Song 7</span>
+                    <span class="songlistplay"><span class="timestamp"> </span><i id="6" class="songItemPlay far fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img class="imgcover">
+                    <span class="songName">Song 8</span>
+                    <span class="songlistplay"><span class="timestamp"> </span><i id="7" class="songItemPlay far fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img class="imgcover">
+                    <span class="songName">Song 9</span>
+                    <span class="songlistplay"><span class="timestamp"> </span><i id="8" class="songItemPlay far fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img class="imgcover">
+                    <span class="songName">Song 10</span>
+                    <span class="songlistplay"><span class="timestamp"> </span><i id="9" class="songItemPlay far fa-play-circle"></i></span>
+                </div>
+
+             </div>
+        </div>
+        <div class="songBanner">
+            <img id="bannerimg" />
+            <h1 id="bannername"></h1>
+
+            
+
+        </div>
+        
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa-3x fa-solid fa-backward-step"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i id="next" class="fa-3x fa-solid fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img src="covers/playing.gif" width="42px" id="gif"> <span id="masterSongName">Play The Music</span>
+        </div>
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/cbef3ea0d6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
